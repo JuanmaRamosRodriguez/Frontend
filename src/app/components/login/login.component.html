@@ -1,0 +1,16 @@
+<div class="flex items-center justify-center h-screen bg-gradient-to-r from-indigo-300 via-transparent to-cyan-200 w-full">
+  <form class="bg-slate-100 p-6 rounded-lg shadow-2xl w-full max-w-md" (ngSubmit)="submitForm()">
+    <h2 class="text-3xl mb-4 text-red-600 italic Beastar text-center">Iniciar Sesión</h2>
+    <div class="mb-4">
+      <label class="block text-blue-500 mb-2 Jojo text-left text-1xl transition-colors Attack duration-300" for="email">Correo 💌</label>
+      <input class="w-full border border-gray-400 p-2 rounded-lg" type="email" id="email" name="email" [(ngModel)]="email" required />
+    </div>
+
+    <div class="mb-4">
+      <label class="block text-blue-500 mb-2 Jojo text-left text-1xl transition-colors Attack duration-300" for="password">Contraseña 🔑</label>
+      <input class="w-full border border-gray-400 p-2 rounded-lg" type="password" id="password" name="password" [(ngModel)]="password" required />
+    </div>
+    <button [routerLink]="['/inicio-page']" class="bg-indigo-400 hover:bg-indigo-600 w-40 h-14 text-white text-center py-4 px-10 rounded-md transition-colors duration-300 Love flex mx-auto" type="button" (click)="submitForm()">ENTRAR</button>
+    <a [routerLink]="['/login2-page']" class="font-bold text-indigo-400 hover:text-indigo-600"><p class="text-center text-xs">¿No tienes cuenta?</p></a><br>
+  </form>
+</div>

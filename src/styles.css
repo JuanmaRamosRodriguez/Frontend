@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base{
+
+  @font-face {
+    font-family: "EX";
+    src: url('fonts/Extraornamentalno2-voRy.ttf');
+
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .EX {
+    font-family: "EX";
+  }
+
+  @font-face {
+    font-family: "Jojo";
+    src: url('fonts/Jojomix-gEr4.ttf');
+
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .Jojo {
+    font-family: "Jojo";
+  }
+
+  @font-face {
+    font-family: "Attack";
+    src: url('fonts/AttackOnCourier-5nJz.ttf');
+
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .Attack {
+    font-family: "Attack";
+  }
+
+  @font-face {
+    font-family: "Love";
+    src: url('fonts/LoveMarker-pKRO.ttf');
+
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .Love {
+    font-family: "Love";
+  }
+
+  @font-face {
+    font-family: "Beastar";
+    src: url('fonts/Fonstars-4Bo0p.otf');
+
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .Beastar {
+    font-family: "Beastar";
+  }
+
+  @font-face {
+    font-family: "CR";
+    src: url('fonts/CROWNT.ttf');
+
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .CR {
+    font-family: "CR";
+  }
+
+
+
+  *{
+    margin: 0;
+    padding: 0%;
+  }
+
+}
+
+.fondo{
+  background-image: url("../../foto/aniku_blanco.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+
+}
+
+.FondoLogo{
+  background-image: url("https://fondosmil.com/fondo/457.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+.FondoI{
+  background-image: url("../src/images/FondoI.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.FondoG{
+  background-image: url("../src/images/FondoG.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
