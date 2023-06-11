@@ -87,7 +87,7 @@
 }
 
 .fondo{
-  background-image: url("../../foto/aniku_blanco.png");
+  background-image: url("images/aniku_blanco.png");
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -104,14 +104,14 @@
 }
 
 .FondoI{
-  background-image: url("../src/images/FondoI.png");
+  background-image: url("images/FondoI.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
 .FondoG{
-  background-image: url("../src/images/FondoG.png");
+  background-image: url("images/FondoG.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
