@@ -7,7 +7,7 @@
   },
   "newProjectRoot": "projects",
   "projects": {
-    "Aniku": {
+    "AN1": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/Aniku",
+            "outputPath": "dist/an1",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -26,8 +26,7 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets",
-              "src/redirects"
+              "src/assets"
             ],
             "styles": [
               "src/styles.css"
@@ -65,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "Aniku:build:production"
+              "browserTarget": "AN1:build:production"
             },
             "development": {
-              "browserTarget": "Aniku:build:development"
+              "browserTarget": "AN1:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +75,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Aniku:build"
+            "browserTarget": "AN1:build"
           }
         },
         "test": {
